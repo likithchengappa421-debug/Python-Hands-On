@@ -1,5 +1,25 @@
+# --- SECRETS & CONFIG ---
+.env
+*.pem
+*.key
+secrets.json
+
+# --- PYTHON ---
 .venv/
+venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+
+# --- IDEs & EDITORS ---
 .idea/
-.idea/
+.vscode/
+*.swp
+
+# --- OS JUNK ---
+.DS_Store
+Thumbs.db
